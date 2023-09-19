@@ -1,3 +1,5 @@
 rencana content 
 - javascript
+  * ES6
+  * Framework
 - php framework
