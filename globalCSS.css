@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+
+}
+
+h1 {
+    text-align: center;
+    color: #ff7f08;
+}
+
+table {
+    border-color: aqua;
+    color: aliceblue;
+    text-align: center;
+    text-indent: 0px;
+}
+
+thead {
+    background-color: blue;
+    color: #ff7f08;
+}
+
+.waifu,.kel {
+    text-align: left;
+}
+
+pre {
+    text-align: left;
+}
+
+.navbar{
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+a {
+    background-color: blue;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+}
+
+.overflowAbsolut{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    overflow: visible;
+}
+
+.overflowAuto{
+    display: inline-block;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+    overflow: auto;
+}
+
+.overflowHidden{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    color: white;
+    overflow: hidden;
+}
+
+.overflowScroll{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    color: white;
+    overflow: scroll;
+}
+
+div.margin, div.marginall, div.padding, div.paddingAll
+{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.margin{
+    
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+    border: 5px solid blue;
+}
+
+.marginall{
+    background-color: lightgreen;
+    margin: auto;
+    border: 5px dotted orange;
+}
+
+.padding{
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border: 5px double cyan;
+}
+
+.paddingAll{
+    background-color: lightcoral;
+    margin: auto;
+    padding: 20px 40px;
+    border-left: 5px solid blue;
+    border-top: 5px double green;
+    border-right: 5px dotted yellow;
+    border-bottom: 5px dashed red;
+}
